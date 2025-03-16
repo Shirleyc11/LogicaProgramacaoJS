@@ -4,10 +4,6 @@ let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
 
-
-//let paragrafo = document.querySelector('p');
-//paragrafo.innerHTML = 'Escolha um número ente 1 e 10';
-
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
